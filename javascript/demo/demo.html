@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div>
+<!-- For Ultra -->
+	<button onclick="sambaa.setValue(1);">ON</button>
+	<button onclick="sambaa.setValue(0);">OFF</button>
+<!-- For Controller -->
+	<br/><br/>
+	<button onclick="sambaa.setValue('fan',1);">ON</button>
+	<button onclick="sambaa.setValue('fan',0);">OFF</button>
+
+</div>
+</body>
+</html>
+<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="../sambaa-controller.js"></script>
+<script type="text/javascript">
+//Application Type
+config.app_type = 'controller';
+//Put your developer key here
+config.developer_key = '';
+//Put your application key here
+config.application_key = '';
+</script>
